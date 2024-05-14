@@ -1,0 +1,154 @@
+// Background for site
+.ui.basic.segment {
+  background: none #2b2d3c;
+  box-shadow: none;
+  border: none;
+  border-radius: 0px;
+  color: white;
+}
+//header background color
+.ui.basic.segment.header-wrapper {
+background: none #65ed93;
+}
+//breadcrumbs
+.contenttype-plone-site .ui.secondary.vertical.segment.breadcrumbs {
+  display: none;
+}
+.ui.secondary.vertical.segment.breadcrumbs {
+  background-color: #333333;
+  border-bottom: none;
+  .ui.breadcrumb {
+    .divider {
+      color: #65ed93;
+    }
+    .section {
+      color: #65ed93;
+
+      &.active {
+        color: #65ed93;
+      }
+    }
+  }
+}
+// margin correction for boundary between top header & content area
+.ui.segment {
+  margin: 0px;
+}
+//margin correction for bottom of header
+.ui.basic.segment.header-wrapper {
+  margin-bottom: -1px;
+}
+// underline for top menu text items
+.ui.secondary.pointing.menu .active.item {
+  border-color: #334547;
+}
+
+.ui.secondary.pointing.menu .active.item:hover {
+  border-color: #006b1e;
+  color: #252525;
+}
+
+.navigation .ui.secondary.pointing.menu,  .tools .ui.secondary.pointing.menu {
+  margin: 0 40px 0px 75px;
+}
+
+// top menu text color
+.ui.menu .item {
+  color: rgb(77, 77, 77);
+}
+// text color for links in Footer
+.ui.inverted.list .item a:not(.ui) {
+  color: #63f092 !important;
+}
+//documentfirstheading color underline bit
+.documentFirstHeading::before {
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 81px;
+  height: 0;
+  border-bottom: 4px solid #63f092;
+  content: '';
+}
+//Fixes styling for the responsive sizing of the logo & Navbar
+// and makes them fit correctly on small screens.
+.logo {
+  
+  min-width: 155px;
+}
+
+img.ui.image {
+  display: block;
+  margin-left: -20px;
+}
+
+.hamburger {
+  padding:5px 0px 0px 8px;
+  margin-left: -20px;
+  margin-right: 15px;
+}
+
+.ui.basic.segment .header .logo-nav-wrapper .logo {
+  flex: 0 1 auto;
+}
+
+.ui.basic.segment .header .tools-search-wrapper {
+  display: none;
+}
+
+.ui.basic.segment .header .logo-nav-wrapper {
+  justify-content: space-around;
+  align-items: center;
+}
+
+//Makes the displayed page on Mobile fit the screen
+body {
+  min-width: 300px;
+  position: relative;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+article, aside {
+  margin-bottom: 10px;
+}
+//test formatting adjustment
+.ui.segments .segment, .ui.segment {
+   font-size: unset; 
+}
+//login button adjustment
+.ui.grey.button {
+  box-shadow: 1px 2px 4px 0px #000000;
+}
+// color change for 'Links' througout the site
+a {
+  color: #63f092;
+}
+
+//Makes the displayed page on Mobile fit the screen
+body {
+  min-width: 300px;
+  position: relative;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+article, aside {
+  margin-bottom: 10px;
+}
+
+//Button color theme fix
+.ui.primary.buttons .button, .ui.primary.button {
+  background-color: #63f092;
+  color: #333333;
+  text-shadow: none;
+  background-image: none;
+}
+
+.block .ui.image {
+   width: 30% !important;
+}

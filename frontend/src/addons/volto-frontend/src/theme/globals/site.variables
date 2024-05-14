@@ -1,0 +1,4 @@
+@fontName: "Assistant";
+@importGoogleFonts: true;
+@largeMonitorBreakpoint: 1330px;
+@emSize: 18px;
