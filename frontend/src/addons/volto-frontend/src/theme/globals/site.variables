@@ -1,4 +1,4 @@
-@fontName: "Assistant";
+@fontName: "Roboto";
 @importGoogleFonts: true;
 @largeMonitorBreakpoint: 1330px;
 @emSize: 18px;
