@@ -45,11 +45,15 @@ background: none #65ed93;
 
 .ui.secondary.pointing.menu .active.item:hover {
   border-color: #006b1e;
-  color: #252525;
+  color: #696969;
 }
 
 .navigation .ui.secondary.pointing.menu,  .tools .ui.secondary.pointing.menu {
   margin: 0 40px 0px 75px;
+}
+
+.ui.secondary.pointing.menu a.item:hover {
+  color: #007786;
 }
 
 // top menu text color

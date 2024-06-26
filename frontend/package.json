@@ -28,8 +28,10 @@
   "addons": [
     "volto-form-block",
     "volto-frontend",
-    "@eeacms/volto-block-style"
+    "@eeacms/volto-block-style",
+    "volto-dropdownmenu"
   ],
+  
   "jest": {
     "modulePathIgnorePatterns": [
       "api"

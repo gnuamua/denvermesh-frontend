@@ -3,6 +3,9 @@
         "paths": {
             "volto-form-block": [
                 "addons/volto-form-block/src"
+            ],
+            "volto-dropdownmenu":[
+                "addons/volto-dropdownmenu/src"
             ]
         },
         "baseUrl": "src"
