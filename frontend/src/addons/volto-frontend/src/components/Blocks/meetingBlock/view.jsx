@@ -11,8 +11,8 @@ const src = './web-logo-square1.png';
     return (
         <>
           <div className='block'>  
-                <Container text style={{background: '#1f2031', border: 'none', borderRadius: '5px'}}>
-                    <h3 style={{fontWeight: 'bold' , paddingLeft: '15px', textAlign: 'center'}}>Denver Mesh Meeting</h3>
+                <Container text style={{background: '#333333', border: 'none', borderRadius: '5px', color: 'white'}}>
+                    <h3 style={{fontWeight: 'bold' , paddingLeft: '15px', textAlign: 'center', color: '#00ec97'}}>Denver Mesh Meeting</h3>
                     <Image className='icon floated'src={bgPNG} size='small' floated='right' 
                     style={{borderRadius: '5px', marginRight: '20px'}} />
                     <span style={{paddingLeft: '10px'}}>When: <span style={{fontSize: '16px', paddingLeft: '8px'}}>TBA</span>  </span>

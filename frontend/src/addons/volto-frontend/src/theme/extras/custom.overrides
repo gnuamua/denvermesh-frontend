@@ -4,7 +4,6 @@
   box-shadow: none;
   border: none;
   border-radius: 0px;
-  color: white;
 }
 //header background color
 .ui.basic.segment.header-wrapper {
@@ -186,5 +185,14 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
 }
 
 .dropdown-menu-wrapper.open .ui.segment:last-child {
-  background:rgb(0, 27, 39);
+  background: #333333;
+}
+
+// Styling for various Blocks within the pages of the site
+.title-color {
+  color: #00ec97;
+}
+
+.text-color {
+  color: white;
 }
