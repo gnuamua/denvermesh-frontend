@@ -1,5 +1,5 @@
-FROM node:16-bullseye-slim as base
-FROM base as builder
+FROM node:16-bullseye-slim AS base
+FROM base AS builder
 
 #ENV NODE_ENV production
 ENV VOLTO_MAJOR=15

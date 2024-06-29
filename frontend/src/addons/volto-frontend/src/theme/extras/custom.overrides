@@ -156,3 +156,35 @@ article, aside {
 .block .ui.image {
    width: 30% !important;
 }
+
+//styling for dropdown-menu-inner
+.ui.grid > .column:not(.row) {
+  min-width: 200px;
+}
+
+//needed for small mobile screen sizing dropdown menu inner link fit
+.ui.menu {
+  font-size: unset !important;
+}
+
+
+
+body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wrapper {
+  width: -webkit-fill-available;
+  left:  0%;
+}
+
+.dropdown-menu-wrapper .has-toolbar{
+  position: absolute !important;
+  z-index: 1;
+  top: 70px;
+  /* left: 0; */
+  overflow: hidden;
+  width: -webkit-fill-available;
+  color: darkcyan;
+  left: 65%;
+}
+
+.dropdown-menu-wrapper.open .ui.segment:last-child {
+  background:rgb(0, 27, 39);
+}

@@ -35,7 +35,7 @@ const Footer = ({ intl }) => {
         <Segment
           basic
           className="discreet"
-          style={{ fontSize: '18px', color: 'white' }}
+          style={{ color: 'white' }}
         >
           <FormattedMessage
             id="{copyright} by Tyson Vinson  {dot} 2024 Colorado, USA"
@@ -47,6 +47,15 @@ const Footer = ({ intl }) => {
             }}
           />{' '}
           <br />
+          <FormattedMessage
+            id="Website by Andrew Himelstieb"
+            defaultMessage="Website by Andrew Himelstieb"
+            values={{
+              dot: <span>&middot;</span>,
+              copyright: <span>&copy;</span>,
+              current_year: new Date().getFullYear(),
+            }}
+          />
         </Segment>
         <List horizontal inverted>
           {/* wrap in div for a11y reasons: listitem role cannot be on the <a> element directly */}
