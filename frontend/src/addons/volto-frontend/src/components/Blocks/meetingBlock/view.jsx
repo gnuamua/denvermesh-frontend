@@ -15,11 +15,13 @@ const src = './web-logo-square1.png';
                     <h3 style={{fontWeight: 'bold' , paddingLeft: '15px', textAlign: 'center', color: '#00ec97'}}>Denver Mesh Meeting</h3>
                     <Image className='icon floated'src={bgPNG} size='small' floated='right' 
                     style={{borderRadius: '5px', marginRight: '20px'}} />
-                    <span style={{paddingLeft: '10px'}}>When: <span style={{fontSize: '16px', paddingLeft: '8px'}}>TBA</span>  </span>
+                    <span style={{paddingLeft: '10px'}}>Date: <span style={{fontSize: '16px', paddingLeft: '8px'}}>&nbsp;&nbsp;&nbsp;July 27 2024</span>  </span>
                     <br/>
-                    <span style={{paddingLeft: '10px'}}>Where: <span style={{fontSize: '16px', paddingLeft: '6px'}}>TBA</span>  </span>
+                    <span style={{paddingLeft: '10px'}}>Time:<span style={{fontSize: '16px', paddingLeft: '8px'}}>&nbsp;&nbsp;&nbsp;&nbsp;7pm MDT</span> </span>
                     <br/>
-                    <span style={{paddingLeft: '10px'}}>RSVP: <span style={{fontSize: '16px', paddingLeft: '8px'}}> <a href='/mattermost'>Mattermost </a>  </span>  </span>
+                    <span style={{paddingLeft: '10px'}}>Where: <span style={{fontSize: '16px', paddingLeft: '6px'}}>Voting onging</span>  </span>
+                    <br/>
+                    <span style={{paddingLeft: '10px'}}>RSVP: <span style={{fontSize: '16px', paddingLeft: '8px'}}> &nbsp;<a href='/mattermost'>Mattermost </a>  </span>  </span>
                     <br/>
                     <br/>
                 </Container>
