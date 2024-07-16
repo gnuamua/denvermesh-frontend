@@ -17,9 +17,11 @@ const src = './web-logo-square1.png';
                     style={{borderRadius: '5px', marginRight: '20px'}} />
                     <span style={{paddingLeft: '10px'}}>Date: <span style={{fontSize: '16px', paddingLeft: '8px'}}>&nbsp;&nbsp;&nbsp;July 27 2024</span>  </span>
                     <br/>
-                    <span style={{paddingLeft: '10px'}}>Time:<span style={{fontSize: '16px', paddingLeft: '8px'}}>&nbsp;&nbsp;&nbsp;&nbsp;7pm MDT</span> </span>
+                    <span style={{paddingLeft: '10px'}}>Time:
+                        <span style={{fontSize: '16px', paddingLeft: '8px'}}>&nbsp;&nbsp;&nbsp;&nbsp;Voting ongoing</span> 
+                    </span>
                     <br/>
-                    <span style={{paddingLeft: '10px'}}>Where: <span style={{fontSize: '16px', paddingLeft: '6px'}}>Voting onging</span>  </span>
+                    <span style={{paddingLeft: '10px'}}>Where: <span style={{fontSize: '16px', paddingLeft: '6px'}}>Voting ongoing</span>  </span>
                     <br/>
                     <span style={{paddingLeft: '10px'}}>RSVP: <span style={{fontSize: '16px', paddingLeft: '8px'}}> &nbsp;<a href='/mattermost'>Mattermost </a>  </span>  </span>
                     <br/>
