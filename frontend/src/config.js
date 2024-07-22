@@ -38,7 +38,5 @@ export default function applyConfig(config) {
 
   config.settings.externalRoutes = [{ match: '/mattermost' }];
 
-  config.settings.externalRoutes = [{ match: '/webclient' }];
-
   return config;
 }
