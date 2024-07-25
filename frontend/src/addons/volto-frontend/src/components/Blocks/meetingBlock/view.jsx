@@ -21,7 +21,7 @@ const src = './web-logo-square1.png';
                         <span style={{fontSize: '16px', paddingLeft: '8px'}}>&nbsp;&nbsp;&nbsp;&nbsp;6pm MDT</span> 
                     </span>
                     <br/>
-                    <span style={{paddingLeft: '10px'}}>Where: <span style={{fontSize: '16px', paddingLeft: '6px'}}>Voting ongoing</span>  </span>
+                    <span style={{paddingLeft: '10px'}}>Where: <span style={{fontSize: '16px', paddingLeft: '6px'}}>&nbsp;<a href='https://denhac.org'> Denhac</a></span>  </span>
                     <br/>
                     <span style={{paddingLeft: '10px'}}>RSVP: <span style={{fontSize: '16px', paddingLeft: '8px'}}> &nbsp;<a href='/mattermost'>Mattermost </a>  </span>  </span>
                     <br/>
