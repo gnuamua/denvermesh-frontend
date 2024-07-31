@@ -12,6 +12,10 @@ import {
   MeetingViewBlock,
   MeetingEditBlock,
 } from 'addons/volto-frontend/src/components';
+import {
+  MattermostViewBlock,
+  MattermostEditBlock,
+} from 'addons/volto-frontend/src/components';
 import MeetingListEditWidget from './addons/volto-frontend/src/components/Blocks/meetingBlock/MeetingListEditWidget';
 import sliderSVG from '@plone/volto/icons/slider.svg';
 // [Internal] All the imports of modules required for the configuration *must* happen
@@ -26,6 +30,21 @@ export default function applyConfig(config) {
     group: 'common',
     view: MeetingViewBlock,
     edit: MeetingEditBlock,
+    restricted: false,
+    mostUsed: false,
+    security: {
+      addPermission: [],
+      view: [],
+    },
+  };
+
+  config.blocks.blocksConfig.mattermostBlock = {
+    id: 'mattermostBlock',
+    title: 'Mattermost Block',
+    icon: sliderSVG,
+    group: 'common',
+    view: MattermostViewBlock,
+    edit: MattermostEditBlock,
     restricted: false,
     mostUsed: false,
     security: {

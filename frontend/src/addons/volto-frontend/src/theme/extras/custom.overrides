@@ -33,6 +33,10 @@ background: none #65ed93;
 .ui.segment {
   margin: 0px;
 }
+// Fix for Text in adding blocks in edit mode
+.ui.buttons {
+ font-size: 1em;
+}
 //margin correction for bottom of header
 .ui.basic.segment.header-wrapper {
   margin-bottom: -1px;
@@ -82,7 +86,7 @@ background: none #65ed93;
 
 img.ui.image {
   display: block;
-  margin-left: -20px;
+//  margin-left: -20px;
 }
 
 .hamburger {
@@ -186,6 +190,8 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
 
 .dropdown-menu-wrapper.open .ui.segment:last-child {
   background: #333333;
+  //width: 33%;
+  //margin-left: 65%;
 }
 
 // Styling for various Blocks within the pages of the site
@@ -195,4 +201,9 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
 
 .text-color {
   color: white;
+}
+
+.centered-inblock {
+  display: block;
+  margin-left: 40%;
 }
