@@ -205,5 +205,5 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
 
 .centered-inblock {
   display: block;
-  margin-left: 40%;
+  margin-left: 38%;
 }
