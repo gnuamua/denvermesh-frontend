@@ -174,7 +174,8 @@ article, aside {
 
 body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wrapper {
   width: -webkit-fill-available;
-  left:  0%;
+  left:  64%;
+  right: 10%;
 }
 
 .dropdown-menu-wrapper .has-toolbar{

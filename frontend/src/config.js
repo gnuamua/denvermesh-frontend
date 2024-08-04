@@ -16,6 +16,14 @@ import {
   MattermostViewBlock,
   MattermostEditBlock,
 } from 'addons/volto-frontend/src/components';
+import {
+  DonateEditBlock,
+  DonateViewBlock,
+} from 'addons/volto-frontend/src/components';
+import {
+  FocomapEditBlock,
+  FocomapViewBlock,
+} from 'addons/volto-frontend/src/components';
 import MeetingListEditWidget from './addons/volto-frontend/src/components/Blocks/meetingBlock/MeetingListEditWidget';
 import sliderSVG from '@plone/volto/icons/slider.svg';
 // [Internal] All the imports of modules required for the configuration *must* happen
@@ -45,6 +53,36 @@ export default function applyConfig(config) {
     group: 'common',
     view: MattermostViewBlock,
     edit: MattermostEditBlock,
+    restricted: false,
+    mostUsed: false,
+    security: {
+      addPermission: [],
+      view: [],
+    },
+  };
+
+  config.blocks.blocksConfig.donateBlock = {
+    id: 'donateBlock',
+    title: 'Donate Block',
+    icon: sliderSVG,
+    group: 'common',
+    view: DonateViewBlock,
+    edit: DonateEditBlock,
+    restricted: false,
+    mostUsed: false,
+    security: {
+      addPermission: [],
+      view: [],
+    },
+  };
+
+  config.blocks.blocksConfig.focomapBlock = {
+    id: 'focomapBlock',
+    title: 'FoCoMap Block',
+    icon: sliderSVG,
+    group: 'common',
+    view: FocomapViewBlock,
+    edit: FocomapEditBlock,
     restricted: false,
     mostUsed: false,
     security: {

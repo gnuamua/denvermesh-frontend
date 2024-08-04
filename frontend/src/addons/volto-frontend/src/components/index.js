@@ -11,8 +11,12 @@
 
 import MeetingViewBlock from './Blocks/meetingBlock/view';
 import MattermostViewBlock from './Blocks/mattermostBlock/view';
+import DonateViewBlock from './Blocks/donateBlock/view';
+import FocomapViewBlock from './Blocks/focoMapBlock/view';
 import MeetingEditBlock from './Blocks/meetingBlock/edit';
 import MattermostEditBlock from './Blocks/mattermostBlock/edit';
+import DonateEditBlock from './Blocks/donateBlock/edit';
+import FocomapEditBlock from './Blocks/focoMapBlock/edit';
 import MeetingListEditWidget from './Blocks/meetingBlock/MeetingListEditWidget';
 
 
@@ -21,3 +25,7 @@ export { MattermostViewBlock };
 export { MeetingEditBlock };
 export { MattermostEditBlock };
 export { MeetingListEditWidget };
+export { DonateViewBlock };
+export { DonateEditBlock };
+export { FocomapEditBlock };
+export { FocomapViewBlock };
