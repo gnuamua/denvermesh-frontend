@@ -24,6 +24,10 @@ import {
   FocomapEditBlock,
   FocomapViewBlock,
 } from 'addons/volto-frontend/src/components';
+import {
+  NetEditBlock,
+  NetViewBlock,
+} from 'addons/volto-frontend/src/components';
 import MeetingListEditWidget from './addons/volto-frontend/src/components/Blocks/meetingBlock/MeetingListEditWidget';
 import sliderSVG from '@plone/volto/icons/slider.svg';
 // [Internal] All the imports of modules required for the configuration *must* happen
@@ -83,6 +87,21 @@ export default function applyConfig(config) {
     group: 'common',
     view: FocomapViewBlock,
     edit: FocomapEditBlock,
+    restricted: false,
+    mostUsed: false,
+    security: {
+      addPermission: [],
+      view: [],
+    },
+  };
+
+  config.blocks.blocksConfig.netBlock = {
+    id: 'netBlock',
+    title: 'Weekly Net Block',
+    icon: sliderSVG,
+    group: 'common',
+    view: NetViewBlock,
+    edit: NetEditBlock,
     restricted: false,
     mostUsed: false,
     security: {

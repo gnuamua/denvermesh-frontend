@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
                     <br/>
                     <br/>
                     <Progress percent={5} indicating />
-                    <h4 style={{fontWeight: 'bold' , paddingLeft: '15px', textAlign: 'center', color: '#00ec97', marginTop: '0px'}}>Goal is $24 for August</h4>
+                    <h4 style={{fontWeight: 'bold' , paddingLeft: '15px', textAlign: 'center', color: '#00ec97', marginTop: '0px'}}>Goal is $24 for August 2024</h4>
                     <br/>
                 </Container>
           </div>
