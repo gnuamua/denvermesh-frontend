@@ -19,7 +19,7 @@ import { Container
         <>
             <Segment inverted style={{width: '150px'}}>
                 <Statistic color='brown' inverted>
-                    <StatisticValue>0</StatisticValue>
+                    <StatisticValue>4</StatisticValue>
                     <StatisticLabel>Weekly Net Check-Ins</StatisticLabel>
                 </Statistic>
             </Segment>
