@@ -52,7 +52,7 @@ background: none #65ed93;
 }
 
 .navigation .ui.secondary.pointing.menu,  .tools .ui.secondary.pointing.menu {
-  margin: 0 40px 0px 75px;
+  margin: 40px 40px 0px 75px;
 }
 
 .ui.secondary.pointing.menu a.item:hover {
@@ -190,7 +190,7 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
 }
 
 .dropdown-menu-wrapper.open .ui.segment:last-child {
-  background: #333333;
+  background: #fff;
   //width: 33%;
   //margin-left: 65%;
 }
@@ -212,3 +212,4 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
 .ui[class*="4:3"].embed {
   padding-bottom: 100%;
 }
+
