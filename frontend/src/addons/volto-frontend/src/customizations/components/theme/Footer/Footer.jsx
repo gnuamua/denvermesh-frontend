@@ -30,7 +30,7 @@ const Footer = ({ intl }) => {
   const lang = useSelector((state) => state.intl.locale);
 
   return (
-    <Segment role="contentinfo" vertical textAlign="center" id="footer" style={{ backgroundColor:'#2b2d3c' }}>
+    <Segment role="contentinfo" vertical textAlign="center" id="footer" style={{ backgroundColor:'#2b2d3c' , marginTop: '-2px'}}>
       <Container>
         <Segment
           basic
@@ -55,7 +55,8 @@ const Footer = ({ intl }) => {
               copyright: <span>&copy;</span>,
               current_year: new Date().getFullYear(),
             }}
-          />
+          />{' '}
+          <br />
         </Segment>
         <List horizontal inverted>
           {/* wrap in div for a11y reasons: listitem role cannot be on the <a> element directly */}
