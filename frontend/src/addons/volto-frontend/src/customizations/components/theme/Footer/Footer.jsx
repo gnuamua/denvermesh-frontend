@@ -59,7 +59,7 @@ const Footer = ({ intl }) => {
         </Segment>
         <List horizontal inverted>
           {/* wrap in div for a11y reasons: listitem role cannot be on the <a> element directly */}
-          <div role="listitem" className="item" style={{color: 'green'}}>
+          <div role="listitem" className="item" style={{color: 'green', fontSize: '12px'}}>
             <UniversalLink
               className="item"
               href={settings.isMultilingual ? `/${lang}/license` : '/license'}
