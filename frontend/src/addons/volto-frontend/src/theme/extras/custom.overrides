@@ -192,7 +192,7 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
 }
 
 .dropdown-menu-wrapper.open .ui.segment:last-child {
-  background: #fff;
+  background: transparent;
   box-shadow: 2px 2px 4px transparent inset;
   //width: 33%;
   //margin-left: 65%;
@@ -230,6 +230,11 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
     box-shadow: 1px 2px 4px 0px #000000;
     margin-left: 25px;
     margin-right: -25px;
+}
+
+.dropdown-menu-wrapper.open .ui.segment:last-child {
+  background: white;
+  box-shadow: 2px 2px 4px transparent inset;
 }
 }
 //color shange for hamburger, implemented after the addition of the css background 'circles'

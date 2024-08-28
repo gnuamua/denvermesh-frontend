@@ -31,7 +31,6 @@
     "@eeacms/volto-block-style",
     "volto-dropdownmenu"
   ],
-  
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
@@ -171,6 +170,7 @@
     "postcss": "8.4.13",
     "prettier": "3.0.3",
     "razzle": "4.2.18",
+    "sass": "1.77.8",
     "stylelint": "15.10.3",
     "stylelint-config-idiomatic-order": "9.0.0",
     "stylelint-prettier": "4.0.2",
@@ -182,6 +182,7 @@
     "react-error-overlay": "6.0.9"
   },
   "packageManager": "yarn@3.2.3",
+  "private": "true",
   "workspaces": [
     "src/addons/volto-frontend"
   ],
