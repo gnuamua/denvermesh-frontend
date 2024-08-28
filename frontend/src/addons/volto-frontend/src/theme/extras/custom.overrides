@@ -50,11 +50,11 @@ background: none #65ed93;
   border-color: #006b1e;
   color: #696969;
 }
-
+/*
 .navigation .ui.secondary.pointing.menu,  .tools .ui.secondary.pointing.menu {
   margin: 40px 40px 0px 75px;
 }
-
+*/
 .ui.secondary.pointing.menu a.item:hover {
   color: #007786;
 }
@@ -128,6 +128,8 @@ article, aside {
 //login button adjustment
 .ui.grey.button {
   box-shadow: 1px 2px 4px 0px #000000;
+  margin-left: 5px;
+  margin-right: -19px;
 }
 // color change for 'Links' througout the site
 a {
@@ -191,8 +193,10 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
 
 .dropdown-menu-wrapper.open .ui.segment:last-child {
   background: #fff;
+  box-shadow: 2px 2px 4px transparent inset;
   //width: 33%;
   //margin-left: 65%;
+  
 }
 
 // Styling for various Blocks within the pages of the site
@@ -213,3 +217,18 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
   padding-bottom: 100%;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  body:not(.has-toolbar):not(.has-sidebar):not(.has-toolbar-collapsed):not(.has-sidebar-collapsed) .ui.container {
+      width: 90% !important;
+      margin-right: auto !important;
+      margin-left: auto !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .ui.grey.button {
+    box-shadow: 1px 2px 4px 0px #000000;
+    margin-left: 25px;
+    margin-right: -25px;
+}
+}
