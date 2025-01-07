@@ -182,7 +182,6 @@
     "react-error-overlay": "6.0.9"
   },
   "packageManager": "yarn@3.2.3",
-  "private": "true",
   "workspaces": [
     "src/addons/volto-frontend"
   ],
