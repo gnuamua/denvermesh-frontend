@@ -3659,6 +3659,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@hcaptcha/react-hcaptcha@npm:^0.3.6":
+  version: 0.3.10
+  resolution: "@hcaptcha/react-hcaptcha@npm:0.3.10"
+  peerDependencies:
+    react: ">= 16.3.0"
+    react-dom: ">= 16.3.0"
+  checksum: 3b0d6a8c7da8072ba226663d9904051231cc1754936a1082b46764a966004406876971adb8917d3d7c6920283501c1bd5b7886c83e33885c4b8d5218fdc25ff5
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.11":
   version: 0.11.14
   resolution: "@humanwhocodes/config-array@npm:0.11.14"
@@ -15462,7 +15472,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"file-saver@npm:2.0.5":
+"file-saver@npm:2.0.5, file-saver@npm:^2.0.5":
   version: 2.0.5
   resolution: "file-saver@npm:2.0.5"
   checksum: c62d96e5cebc58b4bdf3ae8a60d5cf9607ad82f75f798c33a4ee63435ac2203002584d5256a2a780eda7feb5e19dc3b6351c2212e58b3f529e63d265a7cc79f7
@@ -15979,6 +15989,7 @@ __metadata:
     ts-jest: ^26.4.2
     ts-loader: 9.4.4
     typescript: 5.2.2
+    volto-form-block: 3.10.2
     volto-subblocks: 2.0.0
   languageName: unknown
   linkType: soft
@@ -25211,7 +25222,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-google-recaptcha-v3@npm:1.10.1":
+"react-google-recaptcha-v3@npm:1.10.1, react-google-recaptcha-v3@npm:^1.8.0":
   version: 1.10.1
   resolution: "react-google-recaptcha-v3@npm:1.10.1"
   dependencies:
@@ -30817,6 +30828,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"volto-form-block@npm:3.10.2":
+  version: 3.10.2
+  resolution: "volto-form-block@npm:3.10.2"
+  dependencies:
+    "@hcaptcha/react-hcaptcha": ^0.3.6
+    file-saver: ^2.0.5
+    react-google-recaptcha-v3: ^1.8.0
+    volto-subblocks: ^2.1.0
+  peerDependencies:
+    "@plone/volto": ">=16.0.0-alpha.38"
+    volto-subblocks: ^2.1.0
+  checksum: 69407a5333817f47d2b4974f2a6c75f278c95c10ae584438d1360f260ccffb750309d9c425f1627a4ae1d242d27712e53ec79e2da90300b61ac0c448ce475d96
+  languageName: node
+  linkType: hard
+
 "volto-frontend@workspace:src/addons/volto-frontend":
   version: 0.0.0-use.local
   resolution: "volto-frontend@workspace:src/addons/volto-frontend"
@@ -30854,6 +30880,18 @@ __metadata:
   peerDependencies:
     "@plone/volto": ">=16.0.0-alpha.38"
   checksum: 7e4774cd63aad14d46f8371d725d800cc978dafb3672cb9ddb16e032b8fc849948d7e39301c3d55864a40d5143e101fd819165ba5254a016be31812f826c4f76
+  languageName: node
+  linkType: hard
+
+"volto-subblocks@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "volto-subblocks@npm:2.1.0"
+  dependencies:
+    react-dnd: ^5.0.0
+    react-dnd-html5-backend: ^5.0.1
+  peerDependencies:
+    "@plone/volto": ">=16.0.0-alpha.38"
+  checksum: a1cc02ca26176b44398445084c9b90330e898ccb725247f131e71dcc8b1c9e70b3352b8dd4fcf322ea60df7970c02f001454151ab7a82b7a6f6ab96ed4ffc8d5
   languageName: node
   linkType: hard
 
