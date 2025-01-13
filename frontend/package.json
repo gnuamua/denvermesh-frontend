@@ -26,9 +26,10 @@
     "build-storybook": "build-storybook"
   },
   "addons": [
-    "volto-form-block",
     "@eeacms/volto-block-style",
-    "volto-dropdownmenu",
+    "@codesyntax/volto-menu-customization",
+    "volto-form-block",
+    "volto-subblocks",
     "volto-frontend"
   ],
   "jest": {
@@ -142,6 +143,7 @@
   "dependencies": {
     "@babel/plugin-proposal-export-default-from": "7.24.1",
     "@babel/plugin-proposal-throw-expressions": "7.24.1",
+    "@codesyntax/volto-menu-customization": "*",
     "@eeacms/volto-block-style": "*",
     "@hcaptcha/react-hcaptcha": "1.10.1",
     "@loadable/babel-plugin": "5.16.1",
@@ -152,8 +154,8 @@
     "razzle-plugin-scss": "4.2.18",
     "react-google-recaptcha-v3": "1.10.1",
     "scss": "0.2.4",
-    "volto-form-block": "3.10.2",
-    "volto-subblocks": "2.0.0"
+    "volto-form-block": "3.8.0",
+    "volto-subblocks": "2.1.0"
   },
   "devDependencies": {
     "@plone/scripts": "^3.3.2",

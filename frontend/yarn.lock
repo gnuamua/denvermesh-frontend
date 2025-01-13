@@ -3121,6 +3121,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@codesyntax/volto-menu-customization@npm:*":
+  version: 0.4.0
+  resolution: "@codesyntax/volto-menu-customization@npm:0.4.0"
+  peerDependencies:
+    "@plone/volto": ^17.0.0
+  checksum: 849a04b521ba6b26f49119403851a3d96601704fbae850d52263b821832a5f7a696341f5e5484af25c79014e5c485a8f5a5e57600a5a4c876e35fd1d4eccc9b6
+  languageName: node
+  linkType: hard
+
 "@colors/colors@npm:1.5.0":
   version: 1.5.0
   resolution: "@colors/colors@npm:1.5.0"
@@ -15957,6 +15966,7 @@ __metadata:
   dependencies:
     "@babel/plugin-proposal-export-default-from": 7.24.1
     "@babel/plugin-proposal-throw-expressions": 7.24.1
+    "@codesyntax/volto-menu-customization": "*"
     "@eeacms/volto-block-style": "*"
     "@hcaptcha/react-hcaptcha": 1.10.1
     "@loadable/babel-plugin": 5.16.1
@@ -15989,8 +15999,8 @@ __metadata:
     ts-jest: ^26.4.2
     ts-loader: 9.4.4
     typescript: 5.2.2
-    volto-form-block: 3.10.2
-    volto-subblocks: 2.0.0
+    volto-form-block: 3.8.0
+    volto-subblocks: 2.1.0
   languageName: unknown
   linkType: soft
 
@@ -30828,18 +30838,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"volto-form-block@npm:3.10.2":
-  version: 3.10.2
-  resolution: "volto-form-block@npm:3.10.2"
+"volto-form-block@npm:3.8.0":
+  version: 3.8.0
+  resolution: "volto-form-block@npm:3.8.0"
   dependencies:
     "@hcaptcha/react-hcaptcha": ^0.3.6
     file-saver: ^2.0.5
     react-google-recaptcha-v3: ^1.8.0
-    volto-subblocks: ^2.1.0
+    volto-subblocks: ^2.0.0
   peerDependencies:
     "@plone/volto": ">=16.0.0-alpha.38"
-    volto-subblocks: ^2.1.0
-  checksum: 69407a5333817f47d2b4974f2a6c75f278c95c10ae584438d1360f260ccffb750309d9c425f1627a4ae1d242d27712e53ec79e2da90300b61ac0c448ce475d96
+    volto-subblocks: ^2.0.0
+  checksum: bf5b8fc3bb6b6495fda08f9e2295baac1818021146ef59228d31590819d7ddbed1d7045f945a310a5011f490096c7471d165d07bddd4a19232ffdc496ff6d71d
   languageName: node
   linkType: hard
 
@@ -30871,19 +30881,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"volto-subblocks@npm:2.0.0":
-  version: 2.0.0
-  resolution: "volto-subblocks@npm:2.0.0"
-  dependencies:
-    react-dnd: ^5.0.0
-    react-dnd-html5-backend: ^5.0.1
-  peerDependencies:
-    "@plone/volto": ">=16.0.0-alpha.38"
-  checksum: 7e4774cd63aad14d46f8371d725d800cc978dafb3672cb9ddb16e032b8fc849948d7e39301c3d55864a40d5143e101fd819165ba5254a016be31812f826c4f76
-  languageName: node
-  linkType: hard
-
-"volto-subblocks@npm:^2.1.0":
+"volto-subblocks@npm:2.1.0, volto-subblocks@npm:^2.0.0":
   version: 2.1.0
   resolution: "volto-subblocks@npm:2.1.0"
   dependencies:

@@ -239,5 +239,5 @@ body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed) .dropdown-menu-wr
 }
 //color shange for hamburger, implemented after the addition of the css background 'circles'
 .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner::before, .hamburger.is-active .hamburger-inner::after {
-  background-color: #fff;
+  background-color: #00ec97;
 }
