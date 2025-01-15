@@ -23,7 +23,7 @@ The Following are addon packages and their version numbers that are needed to su
 "volto-subblocks": "2.1.0"
 "@codesyntax/volto-menu-customization": "*",
 ],
-
+These version numbers are needed with a volto version of "@plone/volto": "16.26.0".
 
 
 ### Setup the environment
