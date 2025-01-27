@@ -32,11 +32,17 @@ import {
   MeshmapEditBlock,
   MeshmapViewBlock,
 } from './addons/volto-frontend/src/components';
-import { NewMeetingBlock } from 'addons/volto-frontend/src/components';
-import Schema01 from 'addons/volto-frontend/src/components/Blocks/newMeetingBlock/Schema';
+
 import MeetingListEditWidget from './addons/volto-frontend/src/components/Blocks/meetingBlock/MeetingListEditWidget';
 import sliderSVG from '@plone/volto/icons/slider.svg';
 import imagesSVG from '@plone/volto/icons/images.svg';
+
+import View04 from 'addons/volto-frontend/src/components/Blocks/ExampleBlock04/View';
+import Schema04 from 'addons/volto-frontend/src/components/Blocks/ExampleBlock04/Schema';
+import VariationView0401 from 'addons/volto-frontend/src/components/Blocks/ExampleBlock04/VariationView01';
+import VariationView0402 from 'addons/volto-frontend/src/components/Blocks/ExampleBlock04/VariationView02';
+import schemaEnhancerBlock04Variation02 from 'addons/volto-frontend/src/components/Blocks/ExampleBlock04/enhancers';
+
 // [Internal] All the imports of modules required for the configuration *must* happen
 // here BEFORE the following line
 import '@plone/volto/config';
@@ -132,20 +138,35 @@ export default function applyConfig(config) {
     },
   };
 
-  config.blocks.blocksConfig.newmeetingBlock = {
-    id: 'newmeetingBlock',
-    title: 'New Meeting Block',
-    view: NewMeetingBlock,
-    blockSchema: Schema01,
-    icon: imagesSVG,
+  config.blocks.blocksConfig.block04 = {
+    id: 'block04', // this is the block id, it must match the id on the previous line
+    title: 'New Meeting Block', // this is the block title
+    view: View04, // this is the block's view component
+    // We do not need a specific edit component, Volto will use the default
+    // edit: null,
+    blockSchema: Schema04, // this is the schema that will be used to render the edit form
+    icon: imagesSVG, // this is the image that will be shown in the block selector
     group: 'common',
-    restricted: false,
-    mostUsed: false,
-    sidebarTab: 1,
-    security: {
-      addPermission: [],
-      view: [],
-    },
+    sidebarTab: 1, // this is set to 1 to have the `Block` tab selected in the sidebar
+    // editor when editing this block these are the variations available for this block
+    // these are the variations available for this block
+    variations: [
+      {
+        id: 'variation01', // this is the id of the variation
+        title: 'Variation 01', // this is the title of the variation
+        isDefault: true, // this signals if this is the default variation for this block
+        template: VariationView0401, // this is the component that will render
+        // the variation
+      },
+      {
+        id: 'variation02',
+        title: 'Variation 02',
+        isDefault: false,
+        template: VariationView0402,
+        schemaEnhancer: schemaEnhancerBlock04Variation02, // this is the schema enhancer
+        // definition
+      },
+    ],
   };
 
   config.widgets.type.meetlist = MeetingListEditWidget;
