@@ -17,7 +17,7 @@ const src = './web-logo-square1.png';
                     style={{borderRadius: '5px', marginRight: '20px'}} />
                     <span style={{paddingLeft: '10px'}}>Date: <span style={{fontSize: '16px', paddingLeft: '8px'}}>&nbsp;&nbsp;&nbsp;TBA</span>  </span>
                     <br/>
-                    <span style={{paddingLeft: '10px'}}>Time
+                    <span style={{paddingLeft: '10px'}}>Time:
                     <span style={{fontSize: '16px', paddingLeft: '8px'}}>&nbsp;&nbsp;&nbsp;&nbsp;Voting in Progress</span> 
                     </span>
                     <br/>

@@ -32,8 +32,11 @@ import {
   MeshmapEditBlock,
   MeshmapViewBlock,
 } from './addons/volto-frontend/src/components';
+import { NewMeetingBlock } from 'addons/volto-frontend/src/components';
+import Schema01 from 'addons/volto-frontend/src/components/Blocks/newMeetingBlock/Schema';
 import MeetingListEditWidget from './addons/volto-frontend/src/components/Blocks/meetingBlock/MeetingListEditWidget';
 import sliderSVG from '@plone/volto/icons/slider.svg';
+import imagesSVG from '@plone/volto/icons/images.svg';
 // [Internal] All the imports of modules required for the configuration *must* happen
 // here BEFORE the following line
 import '@plone/volto/config';
@@ -123,6 +126,22 @@ export default function applyConfig(config) {
     edit: MeshmapEditBlock,
     restricted: false,
     mostUsed: false,
+    security: {
+      addPermission: [],
+      view: [],
+    },
+  };
+
+  config.blocks.blocksConfig.newmeetingBlock = {
+    id: 'newmeetingBlock',
+    title: 'New Meeting Block',
+    view: NewMeetingBlock,
+    blockSchema: Schema01,
+    icon: imagesSVG,
+    group: 'common',
+    restricted: false,
+    mostUsed: false,
+    sidebarTab: 1,
     security: {
       addPermission: [],
       view: [],

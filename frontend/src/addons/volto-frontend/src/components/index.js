@@ -22,6 +22,7 @@ import MattermostEditBlock from './Blocks/mattermostBlock/edit';
 import DonateEditBlock from './Blocks/donateBlock/edit';
 import FocomapEditBlock from './Blocks/focoMapBlock/edit';
 import MeetingListEditWidget from './Blocks/meetingBlock/MeetingListEditWidget';
+import NewMeetingBlock from './Blocks/newMeetingBlock/View';
 
 
 export { MeetingViewBlock };
@@ -37,3 +38,4 @@ export { NetEditBlock };
 export { NetViewBlock };
 export { MeshmapEditBlock };
 export { MeshmapViewBlock };
+export { NewMeetingBlock };
