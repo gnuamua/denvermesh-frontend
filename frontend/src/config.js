@@ -37,11 +37,11 @@ import MeetingListEditWidget from './addons/volto-frontend/src/components/Blocks
 import sliderSVG from '@plone/volto/icons/slider.svg';
 import imagesSVG from '@plone/volto/icons/images.svg';
 
-import View04 from 'addons/volto-frontend/src/components/Blocks/ExampleBlock04/View';
-import Schema04 from 'addons/volto-frontend/src/components/Blocks/ExampleBlock04/Schema';
-import VariationView0401 from 'addons/volto-frontend/src/components/Blocks/ExampleBlock04/VariationView01';
-import VariationView0402 from 'addons/volto-frontend/src/components/Blocks/ExampleBlock04/VariationView02';
-import schemaEnhancerBlock04Variation02 from 'addons/volto-frontend/src/components/Blocks/ExampleBlock04/enhancers';
+import View04 from 'addons/volto-frontend/src/components/Blocks/newMeetingBlock/View';
+import Schema04 from 'addons/volto-frontend/src/components/Blocks/newMeetingBlock/Schema';
+import VariationView0401 from 'addons/volto-frontend/src/components/Blocks/newMeetingBlock/VariationView01';
+import VariationView0402 from 'addons/volto-frontend/src/components/Blocks/newMeetingBlock/VariationView02';
+import schemaEnhancerBlock04Variation02 from 'addons/volto-frontend/src/components/Blocks/newMeetingBlock/enhancers';
 
 // [Internal] All the imports of modules required for the configuration *must* happen
 // here BEFORE the following line

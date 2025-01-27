@@ -2,31 +2,35 @@ import messages from './messages';
 
 const Schema = ({ intl }) => {
   return {
-    title: intl.formatMessage(messages.block01),
-    block: 'block01',
+    title: intl.formatMessage(messages.block04),
+    block: 'block04',
     fieldsets: [
       {
         id: 'default',
         title: intl.formatMessage(messages.default),
-        fields: ['date', 'title', 'time', 'where', 'rsvp' ],
+        fields: ['title', 'date', 'time', 'where', 'rsvpText'],
       },
     ],
 
     properties: {
-      date: {
-        title: intl.formatMessage(messages.date),
+      url: {
+        title: intl.formatMessage(messages.URL),
+        widget: 'url',
       },
       title: {
         title: intl.formatMessage(messages.title),
       },
+      date: {
+        title: 'Date',
+      },
       time: {
-        title: intl.formatMessage(messages.time),
+        title: 'Time',
       },
       where: {
-        title: intl.formatMessage(messages.where),
+        title: 'Where Text',
       },
-      rsvp: {
-        title: intl.formatMessage(messages.rsvp),
+      rsvpText: {
+        title: 'RSVP Text',
       }
     },
     required: [],

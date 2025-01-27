@@ -1,33 +1,37 @@
 import { defineMessages } from 'react-intl';
 
 const messages = defineMessages({
-  block01: {
-    id: 'block01',
-    defaultMessage: 'Meeting Block',
+  block04: {
+    id: 'block04',
+    defaultMessage: 'Block 04',
   },
   default: {
     id: 'default',
     defaultMessage: 'Default',
   },
-  date: {
-    id: 'date',
-    defaultMessage: 'Date:',
+  URL: {
+    id: 'URL',
+    defaultMessage: 'Where URL',
   },
   title: {
     id: 'title',
-    defaultMessage: 'DenverMesh Meeting',
+    defaultMessage: 'Title',
   },
   time: {
     id: 'time',
-    defaultMessage: 'Time:',
+    defaultMessage: 'Time',
   },
   where: {
     id: 'where',
-    defaultMessage: 'Where:',
+    defineMessages: 'Where',
   },
   rsvp: {
     id: 'rsvp',
-    defaultMessage: 'RSVP:',
+    defineMessages: 'RSVP Link',
+  },
+  date: {
+    id: 'date',
+    defineMessages: 'Date'
   }
 });
 
