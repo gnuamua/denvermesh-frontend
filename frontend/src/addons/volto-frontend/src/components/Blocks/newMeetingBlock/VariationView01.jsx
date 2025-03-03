@@ -21,7 +21,7 @@ const View = (props) => {
                     <br/>
                     <span style={{paddingLeft: '10px'}}>Where: <span style={{fontSize: '16px', paddingLeft: '6px'}}>&nbsp;{data.where}</span>  </span>
                     <br/>
-                    <span style={{paddingLeft: '10px'}}>RSVP: <span style={{fontSize: '16px', paddingLeft: '8px'}}> &nbsp;{data.rsvpText}</span>  </span>
+                    <span style={{paddingLeft: '10px'}}>RSVP: <span style={{fontSize: '16px', paddingLeft: '8px'}}> &nbsp;{data.rsvp}</span>  </span>
                     <br/>
                     <br/>
                 </Container>
