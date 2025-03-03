@@ -8,7 +8,7 @@ const Schema = ({ intl }) => {
       {
         id: 'default',
         title: intl.formatMessage(messages.default),
-        fields: ['title', 'date', 'time', 'where', 'rsvpText'],
+        fields: ['url', 'title', 'date', 'time', 'where', 'rsvp'],
       },
     ],
 
@@ -29,7 +29,7 @@ const Schema = ({ intl }) => {
       where: {
         title: 'Where Text',
       },
-      rsvpText: {
+      rsvp: {
         title: 'RSVP Text',
       }
     },

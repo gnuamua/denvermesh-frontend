@@ -23,15 +23,19 @@ const messages = defineMessages({
   },
   where: {
     id: 'where',
-    defineMessages: 'Where',
+    defineMessage: 'Where',
   },
   rsvp: {
     id: 'rsvp',
-    defineMessages: 'RSVP Link',
+    defineMessage: 'RSVP Link',
+  },
+  RSVP: {
+    id: 'RSVP',
+    defineMessage: 'RSVP',
   },
   date: {
     id: 'date',
-    defineMessages: 'Date'
+    defineMessage: 'Date'
   }
 });
 

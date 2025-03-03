@@ -10,7 +10,7 @@ const schemaEnhancerVariation02 = ({ formData, schema, intl }) => {
     widget: 'url'
   };
   schema.properties.RSVP = {
-    title: 'RSVP URL',
+    title: intl.formatMessage(messages.rsvp),
     widget: 'url'
   };
   schema.fieldsets[0].fields.push('URL');
