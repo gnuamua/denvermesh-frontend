@@ -9,10 +9,6 @@
  * The local project is left for backwards compatibility for existing projects.
  */
 import {
-  MeetingViewBlock,
-  MeetingEditBlock,
-} from 'addons/volto-frontend/src/components';
-import {
   MattermostViewBlock,
   MattermostEditBlock,
 } from 'addons/volto-frontend/src/components';
@@ -48,21 +44,6 @@ import schemaEnhancerBlock04Variation02 from 'addons/volto-frontend/src/componen
 import '@plone/volto/config';
 
 export default function applyConfig(config) {
-  config.blocks.blocksConfig.meetingBlock = {
-    id: 'meetingBlock',
-    title: 'Meeting Block',
-    icon: sliderSVG,
-    group: 'common',
-    view: MeetingViewBlock,
-    edit: MeetingEditBlock,
-    restricted: false,
-    mostUsed: false,
-    security: {
-      addPermission: [],
-      view: [],
-    },
-  };
-
   config.blocks.blocksConfig.mattermostBlock = {
     id: 'mattermostBlock',
     title: 'Mattermost Block',
