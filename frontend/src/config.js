@@ -29,7 +29,6 @@ import {
   MeshmapViewBlock,
 } from './addons/volto-frontend/src/components';
 
-import MeetingListEditWidget from './addons/volto-frontend/src/components/Blocks/meetingBlock/MeetingListEditWidget';
 import sliderSVG from '@plone/volto/icons/slider.svg';
 import imagesSVG from '@plone/volto/icons/images.svg';
 
@@ -149,8 +148,6 @@ export default function applyConfig(config) {
       },
     ],
   };
-
-  config.widgets.type.meetlist = MeetingListEditWidget;
 
   config.settings.externalRoutes = [{ match: '/mattermost' }];
 

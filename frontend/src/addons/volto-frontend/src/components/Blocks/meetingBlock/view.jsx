@@ -3,7 +3,7 @@ import { withBlockExtensions } from '@plone/volto/helpers';
 import { Segment, SegmentGroup, Container , Image
  } from 'semantic-ui-react';
 
-import bgPNG from './web-logo-square1.png';
+
 
 const src = './web-logo-square1.png';
 
