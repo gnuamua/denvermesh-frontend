@@ -1,6 +1,6 @@
 import React from 'react';
 import cx from 'classnames';
-import { Segment, SegmentGroup, Container , Image
+import { Container , Image
 } from 'semantic-ui-react';
 import bgPNG from './web-logo-square1.png';
 
