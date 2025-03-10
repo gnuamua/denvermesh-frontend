@@ -32,7 +32,6 @@ WORKDIR /build/
 RUN mkdir volto/
 COPY frontend/ volto/
 RUN chown -R node:node /build/volto/
-#USER root
 #RUN chown -R node:node /usr/src/volto/
 #RUN node --max_old_space_size=8192
 RUN cd volto/ \
@@ -45,7 +44,6 @@ LABEL maintainer="Andrew Himelstieb <andrew@hoa-colors.com>" \
       org.label-schema.name="plone-frontend" \
       org.label-schema.description="Plone frontend image" \
       org.label-schema.vendor="Plone Foundation"
-#RUN apk update
 #RUN apt-get update \
 #    && buildDeps="busybox" \
 #    && apt-get install -y --no-install-recommends $buildDeps \
