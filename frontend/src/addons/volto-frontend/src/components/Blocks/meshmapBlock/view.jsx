@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
         <>
             <br/>
             <iframe
-                width="95%"
+                width="90%"
                 height="650"
                 src='https://meshmap.net/'
             ></iframe>
