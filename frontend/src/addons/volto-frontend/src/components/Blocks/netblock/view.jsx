@@ -20,7 +20,8 @@ import { Container
             <Segment inverted style={{width: '150px'}}>
                 <Statistic color='brown' inverted>
                     <StatisticValue>12</StatisticValue>
-                    <StatisticLabel>Weekly Net Check-Ins or Responses</StatisticLabel>
+                    <StatisticLabel>Weekly Net Check-Ins -</StatisticLabel>
+                    <StatisticLabel>Most nodes seen at once </StatisticLabel>
                 </Statistic>
             </Segment>
         </>
