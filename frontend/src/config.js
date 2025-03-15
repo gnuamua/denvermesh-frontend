@@ -24,6 +24,10 @@ import {
   NetEditBlock,
   NetViewBlock,
 } from 'addons/volto-frontend/src/components';
+
+import View02 from 'addons/volto-frontend/src/components/Blocks/newNetBlock/View';
+import Schema02 from 'addons/volto-frontend/src/components/Blocks/newNetBlock/Schema';
+
 import {
   MeshmapEditBlock,
   MeshmapViewBlock,
@@ -99,6 +103,19 @@ export default function applyConfig(config) {
       addPermission: [],
       view: [],
     },
+  };
+
+  config.blocks.blocksConfig.block02 = {
+    id: 'block02', // this is the block id, it must match the id on the previous line
+    title: 'New Net Block', // this is the block title
+    view: View02, // this is the block's view component
+    // We do not need a specific edit component, Volto will use the default
+    // edit: null;
+    blockSchema: Schema02, // this is the schema that will be used to render the edit form
+    icon: imagesSVG, // this is the image that will be shown in the block selector
+    sidebarTab: 1, // this is set to 1 to have the `Block` tab selected in the sidebar
+    // editor when editing this block
+    group: 'common', // to show the block in the block select under the `common` category
   };
 
   config.blocks.blocksConfig.meshmapBlock = {
