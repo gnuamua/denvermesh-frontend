@@ -20,10 +20,6 @@ import {
   FocomapEditBlock,
   FocomapViewBlock,
 } from 'addons/volto-frontend/src/components';
-import {
-  NetEditBlock,
-  NetViewBlock,
-} from 'addons/volto-frontend/src/components';
 
 import View02 from 'addons/volto-frontend/src/components/Blocks/newNetBlock/View';
 import Schema02 from 'addons/volto-frontend/src/components/Blocks/newNetBlock/Schema';
@@ -82,21 +78,6 @@ export default function applyConfig(config) {
     group: 'common',
     view: FocomapViewBlock,
     edit: FocomapEditBlock,
-    restricted: false,
-    mostUsed: false,
-    security: {
-      addPermission: [],
-      view: [],
-    },
-  };
-
-  config.blocks.blocksConfig.netBlock = {
-    id: 'netBlock',
-    title: 'Weekly Net Block',
-    icon: sliderSVG,
-    group: 'common',
-    view: NetViewBlock,
-    edit: NetEditBlock,
     restricted: false,
     mostUsed: false,
     security: {
