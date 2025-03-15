@@ -1,22 +1,24 @@
+import cx from 'classnames';
 import React from 'react';
-import { withBlockExtensions } from '@plone/volto/helpers';
-import { Segment, SegmentGroup, Container , Image, Button, Progress
- } from 'semantic-ui-react';
-import { Link } from 'react-router-dom';
+import { Container ,Button, Progress
+} from 'semantic-ui-react';
 
-
-
- const View = () => {
-    return (
-        <>
-          <div className='block'>  
-                <Container text style={{background: '#333333', border: 'none', borderRadius: '5px', color: 'white'}}>
+const View = (props) => {
+  // - `data` holds the values entered in the block edit form.
+  // - `className` holds the CSS class names injected into this block
+  //   by Volto's `styleClassNameExtenders`.
+  // - `style` holds the CSS properties injected into this block
+  //   by Volto's `Block Style Wrapper`.
+  const { data, className, style } = props;
+  return (
+    <div className={cx('block', 'block01', className)} style={style}>
+      <Container text style={{background: '#333333', border: 'none', borderRadius: '5px', color: 'white'}}>
                     <br/>
-                    <h4 style={{fontWeight: 'bold' , paddingLeft: '15px', textAlign: 'center', color: '#00ec97', marginTop: '0px'}}>Link to Donation Page</h4>
-                    <Button inverted color='olive' style={{marginLeft: '32%'}} as='a' href="https://www.paypal.com/donate/?business=L3PBYDKZA2J4G&no_recurring=0&item_name=DenverMesh.org+-Not+Tax+Deductible+until+we+register+as+a+non+profit.&currency_code=USD">Donate</Button>  
+                    <h4 style={{fontWeight: 'bold' , paddingLeft: '15px', textAlign: 'center', color: '#00ec97', marginTop: '0px'}}>{data.title}</h4>
+                    <Button inverted color='olive' style={{marginLeft: '32%'}} as='a' href={data.url}>Donate</Button>  
                     <br/>
                     <br/>
-                    <Progress percent={25} indicating />
+                    <Progress percent={data.percent} indicating />
                     <h4 style={{fontWeight: 'bold' , paddingLeft: '15px', textAlign: 'center', color: '#00ec97', marginTop: '0px'}}>Thank You!!</h4>
                     <h4 style={{fontWeight: 'bold' , paddingLeft: '15px', textAlign: 'center', color: '#00ec97', marginTop: '0px'}}>Goal is $24 for March 2025</h4>
                     <h5 style={{fontWeight: 'bold' , paddingLeft: '5px', textAlign: 'center', marginTop: '0px', marginRight: '5px', color: 'orange'}}>Donations are used for the following:</h5>
@@ -28,11 +30,9 @@ import { Link } from 'react-router-dom';
                         <li>Domain Name Registration</li>
                     </ul>
                     <h4 style={{fontWeight: 'bold' , textAlign: 'left', fontSize: '14px', marginTop: '0px',  color: 'orange'}}>We are looking to Register as a Non-profit Organization in the near future</h4>
-                </Container>
-          </div>
-        </>
-    )
+       </Container>
+    </div>
+  );
+};
 
-}
-
-export default withBlockExtensions(View);
+export default View;
