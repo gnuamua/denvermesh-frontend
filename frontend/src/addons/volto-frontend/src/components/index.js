@@ -3,7 +3,7 @@
  * @module components
  * @example
  * import Footer from './Footer/Footer';
- *
+ * --removed imports for old blocks Mar 15 2025--
  * export {
  *   Footer,
  * };
