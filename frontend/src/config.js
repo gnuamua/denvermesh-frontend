@@ -62,21 +62,6 @@ export default function applyConfig(config) {
     },
   };
 
-  config.blocks.blocksConfig.donateBlock = {
-    id: 'donateBlock',
-    title: 'Donate Block',
-    icon: sliderSVG,
-    group: 'common',
-    view: DonateViewBlock,
-    edit: DonateEditBlock,
-    restricted: false,
-    mostUsed: false,
-    security: {
-      addPermission: [],
-      view: [],
-    },
-  };
-
   config.blocks.blocksConfig.block01 = {
     id: 'block01', // this is the block id, it must match the id on the previous line
     title: 'New Donate Block', // this is the block title
