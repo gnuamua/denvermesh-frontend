@@ -12,10 +12,6 @@ import {
   MattermostViewBlock,
   MattermostEditBlock,
 } from 'addons/volto-frontend/src/components';
-import {
-  DonateEditBlock,
-  DonateViewBlock,
-} from 'addons/volto-frontend/src/components';
 
 import View01 from 'addons/volto-frontend/src/components/Blocks/newDonateBlock/View';
 import Schema01 from 'addons/volto-frontend/src/components/Blocks/newDonateBlock/Schema';
