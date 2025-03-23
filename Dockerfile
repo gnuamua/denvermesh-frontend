@@ -9,7 +9,7 @@ ENV VOLTO_PRERELEASE=
 ENV VOLTO_VERSION=${VOLTO_MAJOR}.${VOLTO_MINOR}.${VOLTO_PATCH}${VOLTO_PRERELEASE}
 
 RUN apt-get update \
-    && apt-get upgrade && apt-get install -y python3 build-essential
+    && apt-get upgrade -y && apt-get install -y python3 build-essential
 
 RUN mkdir /build/ && chown -R node:node /build/
 #    && npm install --no-audit --no-fund -g yo @plone/generator-volto
