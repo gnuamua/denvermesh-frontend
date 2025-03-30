@@ -1,6 +1,7 @@
 // Background for site
 .ui.basic.segment {
   background: none #2b2d3c;
+  color: #e0e0e0;
   box-shadow: none;
   border: none;
   border-radius: 0px;
