@@ -15999,7 +15999,7 @@ __metadata:
     ts-jest: ^26.4.2
     ts-loader: 9.4.4
     typescript: 5.2.2
-    volto-form-block: 3.8.0
+    volto-form-block: 3.11.0
     volto-subblocks: 2.1.0
   languageName: unknown
   linkType: soft
@@ -30838,18 +30838,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"volto-form-block@npm:3.8.0":
-  version: 3.8.0
-  resolution: "volto-form-block@npm:3.8.0"
+"volto-form-block@npm:3.11.0":
+  version: 3.11.0
+  resolution: "volto-form-block@npm:3.11.0"
   dependencies:
     "@hcaptcha/react-hcaptcha": ^0.3.6
     file-saver: ^2.0.5
     react-google-recaptcha-v3: ^1.8.0
-    volto-subblocks: ^2.0.0
+    volto-subblocks: ^2.1.0
   peerDependencies:
     "@plone/volto": ">=16.0.0-alpha.38"
-    volto-subblocks: ^2.0.0
-  checksum: bf5b8fc3bb6b6495fda08f9e2295baac1818021146ef59228d31590819d7ddbed1d7045f945a310a5011f490096c7471d165d07bddd4a19232ffdc496ff6d71d
+    volto-subblocks: ^2.1.0
+  checksum: 81b8e2ea55347ca2920075ad2e8e21b4734c3c67fba65fecab934421c22de2eca75437675c4d1fc00aceb6ecc34687f8249995bc08d0f1f46265f217a0a922ce
   languageName: node
   linkType: hard
 
@@ -30881,7 +30881,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"volto-subblocks@npm:2.1.0, volto-subblocks@npm:^2.0.0":
+"volto-subblocks@npm:2.1.0, volto-subblocks@npm:^2.1.0":
   version: 2.1.0
   resolution: "volto-subblocks@npm:2.1.0"
   dependencies:

@@ -154,7 +154,7 @@
     "razzle-plugin-scss": "4.2.18",
     "react-google-recaptcha-v3": "1.10.1",
     "scss": "0.2.4",
-    "volto-form-block": "3.8.0",
+    "volto-form-block": "3.11.0",
     "volto-subblocks": "2.1.0"
   },
   "devDependencies": {
