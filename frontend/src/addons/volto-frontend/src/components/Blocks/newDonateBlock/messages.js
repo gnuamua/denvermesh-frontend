@@ -20,6 +20,10 @@ const messages = defineMessages({
   Percentage: {
     id: 'percent',
     defaultMessage: "Percentage Indicating",
+  },
+  DateMessage: {
+    id: 'DateMessage',
+    defaultMessage: "Date Message",
   }
 });
 

@@ -8,7 +8,7 @@ const Schema = ({ intl }) => {
       {
         id: 'default',
         title: intl.formatMessage(messages.default),
-        fields: ['url', 'title', 'percent'],
+        fields: ['url', 'title', 'percent', 'dateMessage'],
       },
     ],
 
@@ -22,6 +22,9 @@ const Schema = ({ intl }) => {
       },
       percent: {
         title: intl.formatMessage(messages.Percentage),
+      },
+      dateMessage: {
+        title: intl.formatMessage(messages.DateMessage),
       },
     },
     required: [],
