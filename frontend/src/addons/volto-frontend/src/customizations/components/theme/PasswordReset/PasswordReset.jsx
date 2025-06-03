@@ -22,24 +22,24 @@ const messages = defineMessages({
     defaultMessage: 'Set your password',
   },
   description: {
-    id: 'Please fill out the form below to set your password. IMPORTANT: Please use the email address that you received the link at, as your username.',
-    defaultMessage: 'Please fill out the form below to set your password. IMPORTANT: Please use the email address that you received the link at, as your username.',
+    id: 'Please fill out the form below to set your password.  IMPORTANT: Please use the email address that you received the link at.',
+    defaultMessage: 'Please fill out the form below to set your password.  IMPORTANT: Please use the email address that you received the link at.',
   },
   default: {
     id: 'Default',
     defaultMessage: 'Default',
   },
   usernameTitle: {
-    id: 'My username is',
-    defaultMessage: 'My user name is',
+    id: 'My email address is',
+    defaultMessage: 'My email address is',
   },
   emailTitle: {
     id: 'My email is',
     defaultMessage: 'My email is',
   },
   usernameDescription: {
-    id: 'Enter your username for verification.',
-    defaultMessage: 'Enter your username for verification.',
+    id: 'Enter your email for verification.',
+    defaultMessage: 'Enter your email for verification.',
   },
   emailDescription: {
     id: 'Enter your email for verification.',
