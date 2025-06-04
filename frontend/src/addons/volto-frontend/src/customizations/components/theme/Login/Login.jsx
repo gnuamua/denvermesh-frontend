@@ -217,6 +217,7 @@ class Login extends Component {
                             messages.loginName,
                           )}
                           autoFocus
+                          type='email'
                         />
                       </Grid.Column>
                     </Grid.Row>
@@ -253,7 +254,7 @@ class Login extends Component {
                 <Form.Field inline className="help">
                   <Grid>
                     <Grid.Row stretched>
-                      {config.settings.showSelfRegistration && (
+                      
                         <Grid.Column stretched width="12">
                           <p className="help">
                             <Link to="/register">
@@ -261,7 +262,7 @@ class Login extends Component {
                             </Link>
                           </p>
                         </Grid.Column>
-                      )}
+                      
                       <Grid.Column stretched width="12">
                         <p className="help">
                           <Link to="/passwordreset">
