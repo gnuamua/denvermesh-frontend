@@ -256,7 +256,7 @@ class PasswordReset extends Component {
                 ],
                 properties: {
                   [this.identifierField]: {
-                    type: 'string',
+                    type: 'email',
                     title: this.identifierTitle,
                     description: this.identifierDescription,
                   },
