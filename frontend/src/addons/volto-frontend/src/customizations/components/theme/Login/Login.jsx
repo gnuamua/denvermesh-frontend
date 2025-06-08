@@ -325,7 +325,8 @@ export default compose(
         qs.parse(props.location.search).return_url ||
         props.location.pathname
           .replace(/\/login\/?$/, '')
-          .replace(/\/logout\/?$/, '') ||
+          .replace(/\/logout\/?$/, '')
+          .replace(/\/fallback_login$/, '') ||
         '/',
     }),
     { login },

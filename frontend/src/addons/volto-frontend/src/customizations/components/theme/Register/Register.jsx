@@ -134,7 +134,6 @@ class Register extends Component {
     this.props.createUser({
       fullname: data.fullname,
       email: data.email,
-      password: data.password,
     });
     this.setState({
       error: null,
@@ -173,7 +172,7 @@ class Register extends Component {
                 ),
               },
               email: {
-                type: 'email',
+                type: 'string',
                 title: this.props.intl.formatMessage(messages.emailTitle),
                 description: this.props.intl.formatMessage(
                   messages.emailDescription,
