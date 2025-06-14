@@ -16,6 +16,8 @@ import MeshmapViewBlock from './Blocks/meshmapBlock/view';
 import MeshmapEditBlock from './Blocks/meshmapBlock/edit';
 import MattermostEditBlock from './Blocks/mattermostBlock/edit';
 import FocomapEditBlock from './Blocks/focoMapBlock/edit';
+import MainsliderEditBlock from './Blocks/mainSlider/Edit';
+import MainsliderViewBlock from './Blocks/mainSlider/View';
 
 export { MattermostViewBlock };
 export { MattermostEditBlock };
@@ -23,3 +25,5 @@ export { FocomapEditBlock };
 export { FocomapViewBlock };
 export { MeshmapEditBlock };
 export { MeshmapViewBlock };
+export { MainsliderEditBlock };
+export { MainsliderViewBlock };
