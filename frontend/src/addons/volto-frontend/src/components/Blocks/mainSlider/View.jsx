@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { Button } from 'semantic-ui-react';
 import { Icon } from '@plone/volto/components';
 import { withBlockExtensions } from '@plone/volto/helpers';
-import SliderJPEG from './night-skyline.jpeg';
+import SliderJPEG from './night-skyline-min.jpeg';
 
 const NextArrow = ({ className, style, onClick }) => (
   <Button
