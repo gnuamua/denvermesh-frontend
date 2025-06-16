@@ -34,6 +34,11 @@ import {
   MainsliderViewBlock,
 } from 'addons/volto-frontend/src/components';
 
+import {
+  WestSliderEditBlock,
+  WestSliderViewBlock,
+} from 'addons/volto-frontend/src/components';
+
 import sliderSVG from '@plone/volto/icons/slider.svg';
 import imagesSVG from '@plone/volto/icons/images.svg';
 
@@ -126,6 +131,21 @@ export default function applyConfig(config) {
     group: 'common',
     view: MainsliderViewBlock,
     edit: MainsliderEditBlock,
+    restricted: false,
+    mostUsed: false,
+    security: {
+      addPermission: [],
+      view: [],
+    },
+  };
+
+  config.blocks.blocksConfig.westSliderBlock = {
+    id: 'westSliderBlock',
+    title: 'West Slope Slider Block',
+    icon: sliderSVG,
+    group: 'common',
+    view: WestSliderViewBlock,
+    edit: WestSliderEditBlock,
     restricted: false,
     mostUsed: false,
     security: {
