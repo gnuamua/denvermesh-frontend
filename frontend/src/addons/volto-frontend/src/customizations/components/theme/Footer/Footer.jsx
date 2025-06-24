@@ -38,8 +38,8 @@ const Footer = ({ intl }) => {
           style={{ color: 'white' }}
         >
           <FormattedMessage
-            id="{copyright} by Tyson Vinson  {dot} 2024 Colorado, USA"
-            defaultMessage="{copyright} Tyson Vinson  {dot} 2024 Colorado, USA "
+            id="Denver Mesh {copyright} 2024 is licensed under CC BY-SA 4.0."
+            defaultMessage="Denver Mesh {copyright} 2024 is licensed under CC BY-SA 4.0. "
             values={{
               dot: <span>&middot;</span>,
               copyright: <span>&copy;</span>,
@@ -49,7 +49,7 @@ const Footer = ({ intl }) => {
           <br />
           <FormattedMessage
             id="Website by Andrew Himelstieb"
-            defaultMessage="Website by Andrew Himelstieb"
+            defaultMessage="Colorado, USA"
             values={{
               dot: <span>&middot;</span>,
               copyright: <span>&copy;</span>,
