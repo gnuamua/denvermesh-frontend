@@ -35,7 +35,7 @@ const Footer = ({ intl }) => {
         <Segment
           basic
           className="discreet"
-          style={{ color: 'white' }}
+          style={{ color: 'white' , fontSize: '14px'}}
         >
           <FormattedMessage
             id="Denver Mesh {copyright} {current_year} is licensed under CC BY-SA 4.0."
@@ -50,7 +50,7 @@ const Footer = ({ intl }) => {
         </Segment>
         <List horizontal inverted>
           {/* wrap in div for a11y reasons: listitem role cannot be on the <a> element directly */}
-          <div role="listitem" className="item" style={{color: 'green', fontSize: '12px'}}>
+          <div role="listitem" className="item" style={{color: 'green', fontSize: '14px'}}>
             <UniversalLink
               className="item"
               href={settings.isMultilingual ? `/${lang}/license` : '/license'}
