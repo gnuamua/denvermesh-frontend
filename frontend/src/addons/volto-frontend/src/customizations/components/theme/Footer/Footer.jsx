@@ -38,18 +38,8 @@ const Footer = ({ intl }) => {
           style={{ color: 'white' }}
         >
           <FormattedMessage
-            id="Denver Mesh {copyright} 2024 is licensed under CC BY-SA 4.0."
+            id="Denver Mesh {copyright} {current_year} is licensed under CC BY-SA 4.0."
             defaultMessage="Denver Mesh {copyright} 2024 is licensed under CC BY-SA 4.0. "
-            values={{
-              dot: <span>&middot;</span>,
-              copyright: <span>&copy;</span>,
-              current_year: new Date().getFullYear(),
-            }}
-          />{' '}
-          <br />
-          <FormattedMessage
-            id="Website by Andrew Himelstieb"
-            defaultMessage="Colorado, USA"
             values={{
               dot: <span>&middot;</span>,
               copyright: <span>&copy;</span>,
